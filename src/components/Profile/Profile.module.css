@@ -6,8 +6,10 @@
     align-items: center;
     padding-top: 15px;
     width: 370px;
+    height: 500px;
     box-shadow: 0 0 10px #a4dfdfed;
     border-radius: 10px;
+margin-top: 20px;
   }
   
   .description {

@@ -4,14 +4,13 @@ import { Statistics } from './Statistics/Statistics';
 import { TransactionHistory } from './Transactions/Transactions';
 
 import user from './Data/user.json';
-
 import data from './Data/data.json';
 import friends from './Data/friends.json';
 import transactions from './Data/transactions.json';
 
 export const App = () => {
   return (
-    <div>
+    <div className='horizont'>
       <Profile
         username={user.username}
         tag={user.tag}
