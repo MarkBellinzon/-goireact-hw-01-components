@@ -6,7 +6,7 @@
     align-items: center;
     padding-top: 15px;
     width: 370px;
-    box-shadow: 0 0 10px #c6cccced;
+    box-shadow: 0 0 10px #a4dfdfed;
     border-radius: 10px;
   }
   
@@ -15,14 +15,14 @@
     flex-direction: column;
     align-items: center;
     width: inherit;
-    border-bottom: #7e6f7498 solid 2px;
+    border-bottom: #a4dfdfed solid 2px;
   }
   
   .avatar {
     width: 300px;
     box-shadow: 0 0 3px 0px #0000004d;
     border-radius: 50%;
-    background-color: #e7eeeeed;
+    background-color: #a4dfdfed;
     padding: 20px 10px 0px 10px;
     margin-bottom: 15px;
   }
@@ -31,20 +31,20 @@
     font-weight: 700;
     font-size: 30px;
     margin-bottom: 15px;
-    color: #524a4d;
+    color: #208585ed;
   }
   
   .tag {
     font-weight: 500;
     font-size: 20px;
-    color: #524a4d;
+    color: #208585ed;
     margin-bottom: 15px;
   }
   
   .location {
     font-weight: 700;
     font-size: 20px;
-    color: #524a4d;
+    color: #208585ed;
     margin-bottom: 15px;
   }
   .stats {
@@ -54,7 +54,7 @@
     margin: auto;
     padding: 0;
     width: inherit;
-    background-color: #7e6f7449;
+    background-color: #208585ed;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
   }
@@ -72,12 +72,12 @@
     margin-right: 3px;
     font-weight: 700;
     font-size: 20px;
-    color: #524a4d8b;
+    color: #75d3d3ed;
     margin-bottom: 5px;
   }
   
   .quantity {
     font-weight: 800;
     font-size: 20px;
-    color: #524a4d;
+    color: #75d3d3ed;
   }
