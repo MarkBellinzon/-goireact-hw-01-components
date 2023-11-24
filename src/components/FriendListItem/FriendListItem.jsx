@@ -10,9 +10,6 @@ export const FriendListItem = ({ avatar, name, isOnline }) => (
   </li>
 );
 
-// FriendListItem.defaultProps = {
-//   avatar: noAvatar,
-// };
 
 FriendListItem.propTypes = {
   name: PropTypes.string.isRequired,

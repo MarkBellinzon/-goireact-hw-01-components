@@ -1,22 +1,6 @@
 import css from './Statistics.module.css';
 import PropTypes from 'prop-types';
 
-
-const createColor = () => {
-  const color =
-    'rgba(' +
-    Math.round(Math.random() * 255) +
-    ',' +
-    Math.round(Math.random() * 255) +
-    ',' +
-    Math.round(Math.random() * 255) +
-    ',' +
-    0.5 +
-    ')';
-
-  return color;
-};
-
 export const Statistics = ({ title, stats }) => {
   return (
     <section className={css.statistics}>
@@ -28,7 +12,15 @@ export const Statistics = ({ title, stats }) => {
             <li
               className={css.stats}
               key={id}
-              style={{ backgroundColor: createColor() }}
+              style={{ backgroundColor:  'rgba(' +
+              Math.round(Math.random() * 255) +
+              ',' +
+              Math.round(Math.random() * 255) +
+              ',' +
+              Math.round(Math.random() * 255) +
+              ',' +
+              0.5 +
+              ')' }}
             >
               <span className={css.label}>{label}</span>
               <span className={css.percentage}>{percentage}</span>
