@@ -1,16 +1,16 @@
 import { Profile } from './Profile/Profile';
 import { FriendList } from './Friends/FriendList';
 import { Statistics } from './Statistics/Statistics';
-import { TransactionHistory } from './Transactions/Transactions';
+import { TransactionHistory } from './TransactionHistory/TransactionHistory';
 
-import user from './Data/user.json';
-import data from './Data/data.json';
-import friends from './Data/friends.json';
-import transactions from './Data/transactions.json';
+import user from './Profile/user.json';
+import data from './Statistics/data.json';
+import friends from './Friends/friends.json';
+import transactions from './TransactionHistory/transactions.json';
 
 export const App = () => {
   return (
-    <div className='horizont'>
+    <div className="horizont">
       <Profile
         username={user.username}
         tag={user.tag}

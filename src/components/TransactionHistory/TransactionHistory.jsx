@@ -1,17 +1,11 @@
-import './Transactions.module.css';
 import PropTypes from 'prop-types';
-
-const createColor = () => {
-  const color =
-    '#FF6550';
-  return color;
-};
+import css from './TransactionHistory.css';
 
 export const TransactionHistory = ({ items }) => {
   return (
     <table>
       <thead>
-        <tr style={{ backgroundColor: createColor() }}>
+        <tr>
           <th>Type</th>
           <th>Amount</th>
           <th>Currency</th>
@@ -21,10 +15,10 @@ export const TransactionHistory = ({ items }) => {
       <tbody>
         {items.map(({ id, type, amount, currency }) => {
           return (
-            <tr key={id} style={{ backgroundColor: createColor() }}>
-              <td>{type}</td>
-              <td>{amount}</td>
-              <td>{currency}</td>
+            <tr key={id}>
+              <td className={css.type}>{type}</td>
+              <td className={css.amount}>{amount}</td>
+              <td className={css.currency}>{currency}</td>
             </tr>
           );
         })}
